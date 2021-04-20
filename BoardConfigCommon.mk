@@ -44,7 +44,7 @@ BOARD_RAMDISK_OFFSET := 0x07B88000
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/huawei/kirin970
-TARGET_KERNEL_CONFIG := merge_kirin970_defconfig
+TARGET_KERNEL_CONFIG := halium9_charlotte_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # Properties
